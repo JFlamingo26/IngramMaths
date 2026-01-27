@@ -1,9 +1,17 @@
 h1 {
     font-family: 'Times New Roman';
-    font-size: 250%
+    font-size: 250%;
 }
 
 p {
     font-family: 'Times New Roman';
-    font-size: 100%
+    font-size: 100%;
+}
+
+nav-bar {
+    display:flex;
+    column-gap:24px;
+    align-items:flex-end;
+    position:relative;
+    list-style-type:none;
 }
