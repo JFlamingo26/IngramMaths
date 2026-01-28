@@ -1,17 +1,161 @@
+@charset "UTF-8";
+
+body, html {
+  height: 100%;
+  width:100%;
+  margin:0;
+  background-color : rgb(30,30,30);
+  color: rgb(222,222,222);
+  
+}
+
+#main-content {
+	margin:auto; 
+	width:83%;
+	height:100%;
+	background-color:rgb(32,32,32)
+}
+
 h1 {
     font-family: 'Times New Roman';
-    font-size: 250%;
+    font-size: 190%;
+	margin:10px;
+}
+
+.title {
+	display: block;
+	font-family: 'Times New Roman';
+	/*background-color: rgb(40, 160, 180);*/
+	font-size: 240%;
+	width: 95%;
+	line-height:80px;
+	height:80px;
+	margin:auto;
+	text-align: left;
+	align-items: center;
+}
+
+h2,a {
+	margin:15px;
 }
 
 p {
     font-family: 'Times New Roman';
     font-size: 100%;
+	margin:15px;
 }
 
 .nav-bar {
+    display: flex;
+    height: 35px;
+	margin:auto;
+	position:relative;
+	width:95%;
+    background-color: rgb(40, 70, 130);
+	justify-content: center;
+	align-items: center;
+}
+
+.nav-list {
     display:flex;
-    column-gap:24px;
-    align-items:flex-end;
-    position:relative;
+	height:60px;
+	width:100%;
+    column-gap:20px;
+	/* position:relative; */
+    align-items:center;
     list-style-type:none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav-bar li {
+  position: relative;
+  z-index:5;
+}
+
+
+.nav-button {
+    width: 175px;
+	height:40px;
+	top:100%;
+	position:relative;
+	background-color: rgb(40, 70, 130);
+	transition: background-color 0.2s ease;
+	display:flex;
+    align-items:center;
+	justify-content: center;
+	border-radius: 10px;
+	
+	padding: 2px;
+	font-size: 17px;
+	font-family: 'Times New Roman';
+    font-weight: bold;
+	
+	text-align: center;
+	overflow:visible;
+}
+
+.nav-button:hover {
+    background-color : rgb(50,50,50);
+}
+
+.drop-down {
+	position:absolute;
+	top: 95%;
+	left:5%;
+	margin:0;
+	padding:0;
+	width: 90%;
+	height:auto;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	overflow:auto;
+	background-color : rgb(60,60,60);
+	list-style-type:none;
+	justify-content: flex-start;
+	opacity: 0%;
+	z-index:-1;
+	transition: opacity 0.5s ease;
+}
+
+.drop-down li {
+	display:flex;
+	height:70px;
+	align-items: center;
+	justify-content: center;
+	vertical-align:middle;
+}
+
+.nav-button:hover .drop-down {
+	opacity:100%;
+}
+
+.drop-down-item {
+	position:relative;
+	display:flex;
+	height: 60px;
+	width: 100%;
+	
+	font-size: 15px;
+	padding: 2px;
+	font-family: 'Times New Roman';
+	font-weight: normal;
+	z-index:1;
+	
+	align-items: center;
+	justify-content: center;
+	vertical-align:middle;
+}
+
+.drop-down-anchor {
+	position:relative;
+	display:flex;
+	height: 60px;
+	width: 100%;
+	text-decoration: none;
+	color: inherit;
+	
+	align-items: center;
+	justify-content: center;
 }
