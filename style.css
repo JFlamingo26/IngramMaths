@@ -226,7 +226,7 @@ p {
 		font-size: 4px;
 	}
 	
-	.nar-bar }
+	.nar-bar {
 		height: 6px;
 	}
 }
@@ -239,12 +239,12 @@ p {
 		font-size: 8px;
 	}
 	
-	.nar-bar }
+	.nar-bar {
 		height: 20px;
 	}
 }
 
-@media only screen and (min-width: 1500px) {
+@media only screen and (min-width: 1600px) {
 	
 	.nav-button {
 		width: 175px;
@@ -252,7 +252,7 @@ p {
 		font-size: 17px;
 	}
 	
-	.nar-bar }
+	.nar-bar {
 		height: 35px;
 	}
 }
