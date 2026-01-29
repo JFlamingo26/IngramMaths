@@ -1,12 +1,13 @@
 @charset "UTF-8";
 
+/* Add CSS media queries for mobile... */
+
 body, html {
   height: 100%;
   width:100%;
   margin:0;
   background-color : rgb(30,30,30);
   color: rgb(222,222,222);
-  
 }
 
 #main-content {
@@ -74,23 +75,20 @@ p {
   z-index:5;
 }
 
-
 .nav-button {
-    width: 175px;
-	height:40px;
 	top:100%;
 	position:relative;
 	background-color: rgb(40, 70, 130);
 	transition: background-color 0.2s ease;
 	display:flex;
-    align-items:center;
+	align-items:center;
 	justify-content: center;
 	border-radius: 10px;
 	
 	padding: 2px;
 	font-size: 17px;
 	font-family: 'Times New Roman';
-    font-weight: bold;
+	font-weight: bold;
 	
 	text-align: center;
 	overflow:visible;
@@ -219,4 +217,22 @@ p {
 	height:30px;
 	white-space: wrap;
 	
+}
+
+@media only screen and (max-width: 600px) {
+	
+	.nav-button {
+		width: 120px;
+		height:35px;
+		font-size: 12px;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	
+	.nav-button {
+		width: 175px;
+		height:40px;
+		font-size: 17px;
+	}
 }
