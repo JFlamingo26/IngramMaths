@@ -54,6 +54,7 @@ p {
     background-color: rgb(40, 70, 130);
 	justify-content: center;
 	align-items: center;
+	border-radius: 5px;
 }
 
 .nav-list {
@@ -122,9 +123,15 @@ p {
 .drop-down li {
 	display:flex;
 	height:70px;
+	width:100%;
 	align-items: center;
 	justify-content: center;
 	vertical-align:middle;
+}
+
+.drop-down li a {
+	margin:0;
+	width:100%;
 }
 
 .nav-button:hover .drop-down {
@@ -148,6 +155,10 @@ p {
 	vertical-align:middle;
 }
 
+.drop-down-item:hover {
+    background-color : rgb(50,50,50);
+}
+
 .drop-down-anchor {
 	position:relative;
 	display:flex;
@@ -158,4 +169,54 @@ p {
 	
 	align-items: center;
 	justify-content: center;
+}
+
+.gallery {
+	background-color: rgb(50,50,50);
+	overflow: auto;
+	white-space: nowrap;
+	padding: 10px;
+	width: 90%;
+	height: 340px;
+	margin: auto;
+	border-radius: 10px;
+}
+
+.gallery-choice {
+	width: 300px;
+	height: 280px;
+	text-decoration: none;
+	color: inherit;
+}
+
+.gallery-choice div {
+	padding: 10px;
+	background-color: rgb(70,70,70);
+	border-radius: 10px;
+	width: 280px;
+	height: 280px;
+	align-items: center;
+	align-items: flex-start;
+	word-wrap: break-word;
+}
+
+.gallery-choice div h1 {
+	display:block;
+	color: inherit;
+	font-size: 18px;
+	font-family: 'Times New Roman';
+	font-weight: bold;
+	text-decoration: none;
+	width: 90%;
+	text-align: center;
+	height:30px;
+}
+
+.gallery-choice div p {
+	display:block;
+	font-family: 'Times New Roman';
+	width: 90%;
+	height:30px;
+	white-space: wrap;
+	
 }

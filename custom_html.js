@@ -8,6 +8,13 @@ class Navigation extends HTMLElement {
 						<li>
 							<div class="nav-button" id="home_button">
 								Home
+								<ul class="drop-down">
+									<li><a class=drop-down-anchor href="/IngramMaths/main.html">
+										<div class="drop-down-item">
+											Welcome
+										</div>
+									</a></li>
+								</ul>
 							</div>
 						</li>
 						<li>
@@ -47,9 +54,11 @@ class Navigation extends HTMLElement {
 							<div class="nav-button" id="ug_cs_button">
 								Applied Maths
 								<ul class="drop-down">
-									<li><div class="drop-down-item">
-										Theory of Computation
-									</div></li>
+									<li><a class=drop-down-anchor href="/IngramMaths/Pages/main.html">
+										<div class="drop-down-item">
+											Theory of Computation
+										</div>
+									</a></li>
 								</ul>
 							</div>
 						</li>
