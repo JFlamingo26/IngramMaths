@@ -54,7 +54,7 @@ p {
     background-color: rgb(40, 70, 130);
 	justify-content: center;
 	align-items: center;
-	border-radius: 5px;
+	border-radius: 6px;
 }
 
 .nav-list {
@@ -218,7 +218,7 @@ p {
 	
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
 	
 	.nav-button {
 		width: 50px;
@@ -226,12 +226,13 @@ p {
 		font-size: 4px;
 	}
 	
-	.nar-bar {
-		height: 6px;
+	.nav-bar {
+		height: 7px;
 	}
 }
 
-@media only screen and (min-width: 600px) {
+
+@media (min-width: 600px) and (max-width: 1200px) {
 	
 	.nav-button {
 		width: 100px;
@@ -239,12 +240,13 @@ p {
 		font-size: 8px;
 	}
 	
-	.nar-bar {
-		height: 20px;
+	.nav-bar {
+		height: 26px;
 	}
 }
 
-@media only screen and (min-width: 1600px) {
+
+@media (min-width: 1200px) {
 	
 	.nav-button {
 		width: 175px;
@@ -252,7 +254,7 @@ p {
 		font-size: 17px;
 	}
 	
-	.nar-bar {
+	.nav-bar {
 		height: 35px;
 	}
 }
