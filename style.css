@@ -231,6 +231,15 @@ p {
 @media only screen and (min-width: 600px) {
 	
 	.nav-button {
+		width: 100px;
+		height:30px;
+		font-size: 8px;
+	}
+}
+
+@media only screen and (min-width: 1500px) {
+	
+	.nav-button {
 		width: 175px;
 		height:40px;
 		font-size: 17px;
