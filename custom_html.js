@@ -9,7 +9,7 @@ class Navigation extends HTMLElement {
 							<div class="nav-button" id="home_button">
 								Home
 								<ul class="drop-down">
-									<li><a class=drop-down-anchor href="/IngramMaths/main.html">
+									<li><a class=drop-down-anchor href="/IngramMaths/index.html">
 										<div class="drop-down-item">
 											Welcome
 										</div>
