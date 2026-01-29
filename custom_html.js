@@ -54,7 +54,7 @@ class Navigation extends HTMLElement {
 							<div class="nav-button" id="ug_cs_button">
 								Applied Maths
 								<ul class="drop-down">
-									<li><a class=drop-down-anchor href="/IngramMaths/Pages/main.html">
+									<li><a class=drop-down-anchor href="/IngramMaths/Pages/Applied/Theory_Computation/theory_computation.html">
 										<div class="drop-down-item">
 											Theory of Computation
 										</div>
