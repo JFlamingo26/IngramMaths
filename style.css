@@ -48,7 +48,6 @@ p {
 
 .nav-bar {
     display: flex;
-    height: 35px;
 	margin:auto;
 	position:relative;
 	width:95%;
@@ -226,6 +225,10 @@ p {
 		height:10px;
 		font-size: 4px;
 	}
+	
+	.nar-bar }
+		height: 6px;
+	}
 }
 
 @media only screen and (min-width: 600px) {
@@ -235,6 +238,10 @@ p {
 		height:30px;
 		font-size: 8px;
 	}
+	
+	.nar-bar }
+		height: 20px;
+	}
 }
 
 @media only screen and (min-width: 1500px) {
@@ -243,5 +250,9 @@ p {
 		width: 175px;
 		height:40px;
 		font-size: 17px;
+	}
+	
+	.nar-bar }
+		height: 35px;
 	}
 }
