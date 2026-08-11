@@ -9,7 +9,7 @@ class Navigation extends HTMLElement {
 							<div class="nav-button" id="home_button">
 								Home
 								<ul class="drop-down">
-									<li><a class=drop-down-anchor href="/IngramMaths/index.html">
+									<li><a class="drop-down-anchor" href="/IngramMaths/index.html">
 										<div class="drop-down-item">
 											Welcome
 										</div>
@@ -18,45 +18,66 @@ class Navigation extends HTMLElement {
 							</div>
 						</li>
 						<li>
-							<div class="nav-button" id="gcse_maths_button">
-								GCSE Maths
-							</div>
-						</li>
-						<li>
-							<div class="nav-button" id="a_level_maths_button">
-								A-Level Maths
-							</div>
-						</li>
-						<li>
-							<div class="nav-button" id="a_level_further_maths_button">
-								A-Level Further Maths
-							</div>
-						</li>
-						<li>
-							<div class="nav-button" id="ug_maths_button">
-								Undergraduate Maths
+							<div class="nav-button" id="questions_button">
+								Questions
 								<ul class="drop-down">
-									<li><div class="drop-down-item">
-										Calculus and Differential Equations
-									</div></li>
-									<li><div class="drop-down-item">
-										Abstract Algebra
-									</div></li>
-									<li><a class=drop-down-anchor href="/IngramMaths/Pages/Undergraduate/Topology_Analysis/top_and_analy.html">
+									<li><a class="drop-down-anchor" href="/IngramMaths/index.html">
 										<div class="drop-down-item">
-											Topology and Analysis
+											GCSE
+										</div>
+									</a></li>
+									<li><a class="drop-down-anchor" href="/IngramMaths/index.html">
+										<div class="drop-down-item">
+											A Level
+										</div>
+									</a></li>
+									<li><a class="drop-down-anchor" href="/IngramMaths/index.html">
+										<div class="drop-down-item">
+											Undergraduate
 										</div>
 									</a></li>
 								</ul>
 							</div>
 						</li>
 						<li>
-							<div class="nav-button" id="ug_cs_button">
-								Applied Maths
+							<div class="nav-button" id="problem_sheets_button">
+								Problem Sheets
 								<ul class="drop-down">
-									<li><a class=drop-down-anchor href="/IngramMaths/Pages/Applied/Theory_Computation/theory_computation.html">
+									<li><a class="drop-down-anchor" href="/IngramMaths/index.html">
 										<div class="drop-down-item">
-											Theory of Computation
+											GCSE
+										</div>
+									</a></li>
+									<li><a class="drop-down-anchor" href="/IngramMaths/index.html">
+										<div class="drop-down-item">
+											A Level
+										</div>
+									</a></li>
+									<li><a class="drop-down-anchor" href="/IngramMaths/index.html">
+										<div class="drop-down-item">
+											Undergraduate
+										</div>
+									</a></li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<div class="nav-button" id="notes_button">
+								Notes
+								<ul class="drop-down">
+									<li><a class="drop-down-anchor" href="/IngramMaths/index.html">
+										<div class="drop-down-item">
+											GCSE
+										</div>
+									</a></li>
+									<li><a class="drop-down-anchor" href="/IngramMaths/index.html">
+										<div class="drop-down-item">
+											A Level
+										</div>
+									</a></li>
+									<li><a class="drop-down-anchor" href="/IngramMaths/index.html">
+										<div class="drop-down-item">
+											Undergraduate
 										</div>
 									</a></li>
 								</ul>
