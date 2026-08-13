@@ -42,7 +42,7 @@ h1 {
 	align-items: center;
 }
 
-h2,a {
+h2,h3,a {
 	margin:15px;
 }
 
@@ -137,8 +137,14 @@ p {
 	width:100%;
 }
 
+.nav-button .drop-down {
+    opacity: 0;
+    pointer-events: none;
+}
+
 .nav-button:hover .drop-down {
-	opacity:100%;
+    opacity: 1;
+    pointer-events: auto;
 }
 
 .drop-down-item {
