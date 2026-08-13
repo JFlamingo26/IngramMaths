@@ -40,10 +40,10 @@ class Navigation extends HTMLElement {
 							</div>
 						</li>
 						<li>
-							<div class="nav-button" id="problem_sheets_button">
-								Problem Sheets
+							<div class="nav-button" id="worksheets_button">
+								Worksheets
 								<ul class="drop-down">
-									<li><a class="drop-down-anchor" href="/IngramMaths/index.html">
+									<li><a class="drop-down-anchor" href="/IngramMaths/Pages/Worksheets/WorksheetsGCSE.html">
 										<div class="drop-down-item">
 											GCSE
 										</div>

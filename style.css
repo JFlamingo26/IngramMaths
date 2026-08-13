@@ -10,6 +10,12 @@ body, html {
   color: rgb(222,222,222);
 }
 
+a:link {
+  color: rgb(10, 168, 171);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 #main-content {
 	margin:auto; 
 	width:83%;
@@ -28,7 +34,7 @@ h1 {
 	font-family: 'Times New Roman';
 	/*background-color: rgb(40, 160, 180);*/
 	font-size: 240%;
-	width: 95%;
+	width: 97%;
 	line-height:80px;
 	height:80px;
 	margin:auto;
@@ -50,7 +56,7 @@ p {
     display: flex;
 	margin:auto;
 	position:relative;
-	width:95%;
+	width:94%;
     background-color: rgb(40, 70, 130);
 	justify-content: center;
 	align-items: center;
@@ -162,10 +168,14 @@ p {
 	height: 60px;
 	width: 100%;
 	text-decoration: none;
-	color: inherit;
 	
 	align-items: center;
 	justify-content: center;
+}
+
+.drop-down-anchor:link {
+	color: white;
+	text-decoration: none;
 }
 
 .gallery {
@@ -221,13 +231,17 @@ p {
 @media (max-width: 600px) {
 	
 	.nav-button {
-		width: 100px;
-		height:25px;
-		font-size: 4px;
+		width: 68px;
+		height:15px;
+		font-size: 8px;
+	}
+
+	.nav-list {
+		column-gap:7px;
 	}
 	
 	.nav-bar {
-		height: 7px;
+		height: 14px;
 	}
 }
 
@@ -237,7 +251,7 @@ p {
 	.nav-button {
 		width: 150px;
 		height:50px;
-		font-size: 8px;
+		font-size: 10px;
 	}
 	
 	.nav-bar {
